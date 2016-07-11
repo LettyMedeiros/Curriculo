@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:weightSum="1"
+    android:background="#fce58b">
+
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="131dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Letícia Medeiros Corrêa"
+        android:id="@+id/textView"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="lcmedeiros.23@gmail.com"
+        android:id="@+id/textView2"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="23/01/1994"
+        android:id="@+id/textView3"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="(92)991129370"
+        android:id="@+id/textView4"
+        android:allowUndo="false"
+        android:visibility="visible"
+        android:textStyle="italic" />
+
+    <ExpandableListView
+        android:id="@+id/expandableList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:divider="#ffba43"
+        android:dividerHeight="10dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        tools:listitem="@android:layout/simple_list_item_1"
+        android:fastScrollEnabled="false"
+        android:fastScrollAlwaysVisible="false"
+        android:textAlignment="center"></ExpandableListView>
+
+</LinearLayout>
